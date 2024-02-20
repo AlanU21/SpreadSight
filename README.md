@@ -7,29 +7,29 @@
 
 ## Project Scope
 * SpreadSight is a Time Series Forecasting model for the two major Credit Default Swap Indexes in the North American Market
-- CDX.NA.IG (Investment Grade)
-- CDX.NA.HY (High Yield)
+  * CDX.NA.IG (Investment Grade)
+  * CDX.NA.HY (High Yield)
+
+* The main deliverable will be a deployed forecasting model to Amazon Web Services
 
 ## Personnel
 * Who are on this project:
-	* Microsoft:
-		* Project lead
-		* PM
-		* Data scientist(s)
-		* Account manager
-	* Client:
-		* Data administrator
-		* Business contact
-	
+	* Temple University:
+		* Colby Eigen (Data Science '24)
+      * Alan Uthuppan (Computer Science and Data Science '24)
+      * Saimon Shrestha (Data Science '24)
+  
 ## Metrics
-* What are the qualitative objectives? (e.g. reduce user churn)
-* What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
-* What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
-* How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+* The models will be evaluated using the industry standard Financial Forecasting Root Mean Squared Error.
 
 ## Plan
-* Phases (milestones), timeline, short description of what we'll do in each phase.
+* Phase 1: Data Collection
+* Phase 2: Data Exploration
+* Phase 3: Data Preprocessing
+* Phase 4: Local Model Development
+* Phase 5: Local Model Evaluation
+* Phase 6: Remote Resources Development
+* Phase 7: Remote Model Deployment
 
 ## Architecture
 * Data
