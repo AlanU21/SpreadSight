@@ -50,5 +50,5 @@
     * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
 
 ## Communication
-* How will we keep in touch? Weekly meetings?
-* Who are the contact persons on both sides?
+* Our team members will communicate through Jira, Discord, and text message to ensure a streamlined workflow.
+* These same methods will be used to communicate project updates to our clients, Stephen MacNeil and Jovan Andjelkovic
