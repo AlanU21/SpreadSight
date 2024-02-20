@@ -1,10 +1,12 @@
+# Data
+
 CreditDefaultIndicies.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
+CreditDefaultIndicies.xlsx
 # C extensions
 *.so
 
