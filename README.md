@@ -2,7 +2,8 @@
 
 ## Business Background
 
-* Credit Default Swaps are an insurance policy against a debtor's ability to repay a loan. They played a crucial role in the 2007-2008 Housing Market Crash as Hedge Fund Managers purchased trillions of dollars worth of Swaps against the Housing Market and reaped billions when the bubble burst.
+* Credit Default Swaps are an insurance policy against a debtor's ability to repay a loan. They played a crucial role in the 2007-2008 Housing Market Crash as Hedge Fund Managers purchased millions of dollars worth of Swaps against the Housing Market and reaped hundreds of millions when the bubble burst.
+* A Credit Default Swap Index is a standardized, tradable financial instrument. It is a collection of Credit Default Swaps for varying creditors that has enabled liquidity in the CDS market a standard swap did not.
 * In the 15 years since, modelling Credit Default Swap Indices has never been more crucial to forecast future credit events.
 
 ## Project Scope
@@ -10,34 +11,35 @@
   * CDX.NA.IG (Investment Grade)
   * CDX.NA.HY (High Yield)
 
-* The main deliverable will be a deployed forecasting model to Amazon Web Services
+* The main deliverable will be a deployed forecasting model using *Serverless Application Model* (SAM) through Amazon Web Services.
+
+* Our client will be delivered a daily forecasting report featuring visualizations of 1 day, 7 day, 30 day, 90 day trends for IG and HY spreads.
 
 ## Personnel
 * Who are on this project:
 	* Temple University:
-		* Colby Eigen (Data Science '24)
-      * Alan Uthuppan (Computer Science and Data Science '24)
-      * Saimon Shrestha (Data Science '24)
+		* **Project Lead:** Colby Eigen (Data Science '24)
+      * **Lead Analyst:** Alan Uthuppan (Computer Science and Data Science '24)
+  * Clients
+    * Stephen MacNeil
+    * Jovan Andeljkovic
   
 ## Metrics
-* The models will be evaluated using the industry standard Financial Forecasting Root Mean Squared Error.
+* The models will be evaluated using the industry standard backtesting strategies for Financial Forecasting: *Root Mean Squared Error, Mean Absolute Error, and Mean Absolute Scaled Error*.
 
 ## Plan
-* Phase 1: Data Collection
-* Phase 2: Data Exploration
-* Phase 3: Data Preprocessing
-* Phase 4: Local Model Development
-* Phase 5: Local Model Evaluation
-* Phase 6: Remote Resources Development
-* Phase 7: Remote Model Deployment
+* Phase 1: **Data Collection**
+* Phase 2: **Data Exploration**
+* Phase 3: **Data Preprocessing**
+* Phase 4: **Local Model Development**
+* Phase 5: **Local Model Evaluation**
+* Phase 6: **Remote Resources Development**
+* Phase 7: **Remote Model Deployment**
 
 ## Architecture
 * Data
-  * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
-* Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
+  * We collected our original dataset from a Bloomberg Terminal at the Temple University Fox School of Business.
+  * 
 
 * What tools and data storage/analytics resources will be used in the solution e.g.,
   * ASA for stream aggregation
