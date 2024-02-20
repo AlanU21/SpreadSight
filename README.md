@@ -1,14 +1,14 @@
 # Project Charter
 
-## Business background
+## Business Background
 
-* Who is the client, what business domain the client is in.
-* What business problems are we trying to address?
+* Credit Default Swaps are an insurance policy against a debtor's ability to repay a loan. They played a crucial role in the 2007-2008 Housing Market Crash as Hedge Fund Managers purchased trillions of dollars worth of Swaps against the Housing Market and reaped billions when the bubble burst.
+* In the 15 years since, modelling Credit Default Swap Indices has never been more crucial to forecast future credit events.
 
-## Scope
-* What data science solutions are we trying to build?
-* What will we do?
-* How is it going to be consumed by the customer?
+## Project Scope
+* SpreadSight is a Time Series Forecasting model for the two major Credit Default Swap Indexes in the North American Market
+- CDX.NA.IG (Investment Grade)
+- CDX.NA.HY (High Yield)
 
 ## Personnel
 * Who are on this project:
