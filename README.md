@@ -1,6 +1,6 @@
 # Project Charter
 
-## Business Background
+## Problem Description
 
 * Credit Default Swaps are an insurance policy against a debtor's ability to repay a loan. They played a crucial role in the 2007-2008 Housing Market Crash as Hedge Fund Managers purchased millions of dollars worth of Swaps against the Housing Market and reaped hundreds of millions when the bubble burst.
 * A Credit Default Swap Index is a standardized, tradable financial instrument. It is a collection of Credit Default Swaps for varying creditors that has enabled liquidity in the CDS market a standard swap did not.
@@ -15,26 +15,10 @@
 
 * Our client will be delivered a daily forecasting report featuring visualizations of 1 day, 7 day, 30 day, 90 day trends for IG and HY spreads.
 
-## Personnel
-* Who are on this project:
-	* Temple University:
-		* **Project Lead:** Colby Eigen (Data Science '24)
-      * **Lead Analyst:** Alan Uthuppan (Computer Science and Data Science '24)
-  * Clients
-    * Stephen MacNeil
-    * Jovan Andeljkovic
   
 ## Metrics
 * The models will be evaluated using the industry standard backtesting strategies for Financial Forecasting: *Root Mean Squared Error, Mean Absolute Error, and Mean Absolute Scaled Error*.
 
-## Plan
-* Phase 1: **Data Collection**
-* Phase 2: **Data Exploration**
-* Phase 3: **Data Preprocessing**
-* Phase 4: **Local Model Development**
-* Phase 5: **Local Model Evaluation**
-* Phase 6: **Remote Resources Development**
-* Phase 7: **Remote Model Deployment**
 
 ## Architecture
 * Data
@@ -50,6 +34,24 @@
   * Data movement pipeline in production
   * Make a 1 slide diagram showing the end to end data flow and decision architecture
     * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
+
+## Plan
+* Phase 1: **Data Collection**
+* Phase 2: **Data Exploration**
+* Phase 3: **Data Preprocessing**
+* Phase 4: **Local Model Development**
+* Phase 5: **Local Model Evaluation**
+* Phase 6: **Remote Resources Development**
+* Phase 7: **Remote Model Deployment**
+
+## Personnel
+* Who are on this project:
+	* Temple University:
+		* **Project Lead:** Colby Eigen (Data Science '24)
+      * **Lead Analyst:** Alan Uthuppan (Computer Science and Data Science '24)
+  * Clients
+    * Stephen MacNeil
+    * Jovan Andeljkovic
 
 ## Communication
 * For development, we will be implementing our project in Python code using VScode as our IDE and GitHub for version control
