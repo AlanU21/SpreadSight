@@ -36,13 +36,13 @@
     * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
 
 ## Plan
-* Phase 1: **Data Collection**
-* Phase 2: **Data Exploration**
-* Phase 3: **Data Preprocessing**
-* Phase 4: **Local Model Development**
-* Phase 5: **Local Model Evaluation**
-* Phase 6: **Remote Resources Development**
-* Phase 7: **Remote Model Deployment**
+* Phase 1: **Data Collection** 02/20/24 - 02/22/24
+* Phase 2: **Data Exploration** 02/22/24 - 02/28/24
+* Phase 3: **Data Preprocessing** 02/28/24 - 03/11/24
+* Phase 4: **Local Model Development** 03/11/24 - 03/19/24 
+* Phase 5: **Local Model Evaluation** 03/19/24 - 03/20/24
+* Phase 6: **Remote Resources Development** 03/20/24 - 4/13/24
+* Phase 7: **Remote Model Deployment** 04/13/24 - 04/21/24
 
 ## Personnel
 * Who are on this project:
