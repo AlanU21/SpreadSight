@@ -1,6 +1,6 @@
 # Project Charter
 
-## Business Background
+## Problem Description
 
 * Credit Default Swaps are an insurance policy against a debtor's ability to repay a loan. An owner of a default swap pays a monthly premium to the creditor while the debtor is paying their loan payments. If the debtor defaults, the owner of the default swap is compensated by the creditor.
 * CDS contracts played a crucial role in the 2007-2008 Housing Market Crash as Hedge Fund Managers purchased millions of dollars worth of Swaps against the Housing Market filled with subprime mortgages and reaped hundreds of millions when the bubble burst.
@@ -16,26 +16,8 @@
 
 * Our client will be delivered a daily forecasting report featuring visualizations of 1 day, 7 day, 30 day trends for IG and HY spreads.
 
-## Personnel
-* Who are on this project:
-	* Temple University:
-		* **Project Lead:** Colby Eigen (Data Science '24)
-      * **Lead Analyst:** Alan Uthuppan (Computer Science and Data Science '24)
-  * Clients
-    * Stephen MacNeil
-    * Jovan Andeljkovic
-  
 ## Metrics
 * The models will be evaluated using the industry standard backtesting strategies for Financial Forecasting: *Root Mean Squared Error, Mean Absolute Error,* and *Mean Absolute Scaled Error*.
-
-## Plan
-* Phase 1: **Data Collection**  
-* Phase 2: **Data Exploration** 
-* Phase 3: **Data Preprocessing** 
-* Phase 4: **Local Model Development** 
-* Phase 5: **Local Model Evaluation**  
-* Phase 6: **Remote Resources Development**
-* Phase 7: **Remote Model Deployment**
 
 ## Architecture
 * We collected our original dataset from a Bloomberg Terminal at the Temple University Fox School of Business.
@@ -53,7 +35,23 @@
 | CDX IG      | The CDX Investment Grade Index is a credit default swap index that tracks the credit risk of a basket of investment-grade corporate bonds, used for hedging or speculating on credit conditions. |
 | CDX HY      | The CDX High Yield Index tracks the credit risk of a basket of high-yield bonds, used by investors to manage risk or speculate on the credit conditions of lower-rated corporate bonds. |
 
+## Plan
+* Phase 1: **Data Collection** 02/20/24 - 02/22/24
+* Phase 2: **Data Exploration** 02/22/24 - 02/28/24
+* Phase 3: **Data Preprocessing** 02/28/24 - 03/11/24
+* Phase 4: **Local Model Development** 03/11/24 - 03/19/24 
+* Phase 5: **Local Model Evaluation** 03/19/24 - 03/20/24
+* Phase 6: **Remote Resources Development** 03/20/24 - 4/13/24
+* Phase 7: **Remote Model Deployment** 04/13/24 - 04/21/24
 
+## Personnel
+* Who are on this project:
+	* Temple University:
+		* **Project Lead:** Colby Eigen (Data Science '24)
+      * **Lead Analyst:** Alan Uthuppan (Computer Science and Data Science '24)
+  * Clients
+    * Stephen MacNeil
+    * Jovan Andeljkovic
 
 ## Communication
 * Our team members will communicate through Jira, Discord, and text message to ensure a streamlined workflow.
