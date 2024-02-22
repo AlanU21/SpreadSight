@@ -6,7 +6,8 @@
   ### Basics
 * **Credit Default Swaps** are an insurance policy against a borrower's ability to repay a loan. An owner of a default swap pays a monthly premium to an insurser of the creditor while the borrower is paying their loan payments on time. If the debtor defaults, the owner of the default swap is compensated by the creditor's insurer.
 * The video below captures the basics of CDS
-  [![Credit Default Swaps Explained](https://img.youtube.com/vi/QTXn_FRRcnI/0.jpg)](https://youtu.be/QTXn_FRRcnI)
+
+[![Credit Default Swaps Explained](https://img.youtube.com/vi/QTXn_FRRcnI/0.jpg)](https://youtu.be/QTXn_FRRcnI)
 
 
   ### CDS in the Housing Market
@@ -24,19 +25,19 @@
   * CDX.NA.IG (Investment Grade), composed of 125 CDS contracts for low-risk Corporate loans
   * CDX.NA.HY (High Yield), composed of 100 CDS contracts for high-risk Corporate loans
 
-### Main Goals
+  ### Main Goals
 
-* The main deliverable will be a deployed forecasting model using *Serverless Application Model* (SAM) through Amazon Web Services using AWS Lambda and S3.
+  * The main deliverable will be a deployed forecasting model using *Serverless Application Model* (SAM) through Amazon Web Services using AWS Lambda and S3.
 
-* Our client will be delivered a daily forecasting report using Amazon Simple Email Service featuring visualizations of 1 day, 7 day, 30 day trends for IG and HY spreads.
+  * Our client will be delivered a daily forecasting report using Amazon Simple Email Service featuring visualizations of 1 day, 7 day, 30 day trends for IG and HY spreads.
 
-* A Tableau Dashboard visualizing our main insights
+  * A Tableau Dashboard visualizing our main insights
 
-### Stretch Goals
+  ### Stretch Goals
 
-* A deployed model that scrapes the features daily to forecast on present data
+  * A deployed model that scrapes the features daily to forecast on present data
 
-* A Web Interface that allows users to view the most recent data and the forecasted trends on any given day
+  * A Web Interface that allows users to view the most recent data and the forecasted trends on any given day
 
 ## Metrics
 * The models will be evaluated using the industry standard backtesting strategies for Financial Forecasting: *Root Mean Squared Error, Mean Absolute Error,* and *Mean Absolute Scaled Error*.
