@@ -63,29 +63,29 @@
   * Data Collection is not final, and more features may be added on later.
 
 
-* Phase 2: **Data Exploration** 02/22/24 - 02/28/24
+### Phase 2: **Data Exploration** 02/22/24 - 02/28/24
 
   * Alan and Colby will build their domain knowledge in this phase. In addition to Exploratory Data Analysis between features and creating graphs, white papers and past work will be reviewed to better grasp why these features were chosen by prior researchers.
   * The Mortgage Feature is already an addition to our model that makes our work original, but are there other features/metrics that could improve a Credit Forecasting model that other researchers did not consider? Is there a reason why? Is the data available? These are the questions to be explored in this phase.
 
-* Phase 3: **Data Preprocessing** 02/28/24 - 03/11/24
+### Phase 3: **Data Preprocessing** 02/28/24 - 03/11/24
 
   * Phase 2 and 3 are closely linked together as Feature Engineering will begin here pending the conclusions drawn from exploration and the domain-knowledge building phase.
   * Ideas for Features include Percent Change of Features from Previous 30 days, 7 days, 1 day: This artificial short term memory can help mimic a LTSM Neural Network without the added complexity and computational costs. 
 
-* Phase 4: **Local Model Development** 03/11/24 - 03/19/24 
+### Phase 4: **Local Model Development** 03/11/24 - 03/19/24 
 
   * Colby and Alan will first begin with developing a base ARIMA model using varying open source Stats Libraries and Models.
   * The pair will diverge here as Alan moves to working on Ensemble Approaches for this problem including Random Forest, Bagging, and different Boosting methods. 
   * Colby will continue working with Time Series models as he begins to explore Seasonal Trends in Seasonal ARIMA and develop a Vector Autoregression Model with a larger feature subset.
  
-* Phase 5: **Local Model Evaluation** 03/19/24 - 03/26/24
+### Phase 5: **Local Model Evaluation** 03/19/24 - 03/26/24
 
   * The pair will converge when they have a *best* model based on the selected evaluation metrics for forecasting in 1 day, 7 days, and 30 days.
   * Alan will work on Viz comparing model performance while the two begin to brainstorm the Insights they want visualized on their Tableau Dashboard.
   * Alan will begin work on their Tableau dashboard 
 
-* Phase 6: **Remote Resources Development** 03/27/24 - 4/13/24
+### Phase 6: **Remote Resources Development** 03/27/24 - 4/13/24
 
   * The AWS Resources required for this project will be built here. Colby will begin work on permissions required for The lambda functions, S3 Buckets, Simple Email Service.
   * (Time permitting and stretch): Alan will explore possible data sources where daily data can be scraped to concat on Test Data for daily Dynamic Forecasting. 
@@ -94,7 +94,7 @@
   * The pair will also test the final Lambda Function can properly pull the .pickle trained model from the S3 Bucket and complete model evaluation.
   * The Workflow will be built here using AWS Triggers and Listeners as the Functions rely on each others' outputs.
 
-* Phase 7: **Remote Model Deployment** 04/13/24 - 04/21/24
+### Phase 7: **Remote Model Deployment** 04/13/24 - 04/21/24
 
   * The Triggers will be activated with CRON Expressions, and the Model will be deployed. We expect Phase 6 to be our most challenging and debugging heavy for a successful deployment. 
 
