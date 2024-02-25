@@ -53,19 +53,10 @@
 * Phase 6: **Remote Resources Development** 03/20/24 - 4/13/24
 * Phase 7: **Remote Model Deployment** 04/13/24 - 04/21/24
 
-## Personnel
-* Who are on this project:
-	* Temple University:
-		* **Project Lead:** Colby Eigen (Data Science '24)
-      * **Lead Analyst:** Alan Uthuppan (Computer Science and Data Science '24)
-  * Clients
-    * Stephen MacNeil
-    * Jovan Andeljkovic
-
 ## Architecture
 * We collected our original dataset from a Bloomberg Terminal at the Temple University Fox School of Business.
 * The data includes daily values from August 8, 2012 to February 16, 2024
-* We have selected our features based off reviews of prior publications and our desire to combine Merton's Credit Risk Determinants into our Model.
+* We have selected our features based off reviews of prior publications and our desire to combine [Merton's Credit Risk Determinants](https://doi.org/10.2307/2978814) into our Model.
 * Potential Models include ARIMA, Seasonal ARIMA, Vector Autoregressive, Ensemble Methods such as Random Forest, and Boosting Methods.
   * *Reccurent Neural Networks will be explored as time permits*
 
@@ -83,6 +74,7 @@
 
   ![alt text](Architecture1.png)
 
+* **Not depicted:** A Tableau Dashboard for our insights will be connected to the Parquet File in the S3 Bucket and hosted on Temple's server.
 
 ## Personnel
 * Who are on this project:
