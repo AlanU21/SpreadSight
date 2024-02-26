@@ -12,7 +12,7 @@
 
 ### CDS in the Housing Market
 * CDS contracts played a crucial role in the 2007-2008 Housing Market Crash as Hedge Fund Managers purchased millions of dollars worth of Swaps against the Housing Market filled with *subprime mortgages* and reaped hundreds of millions when the bubble burst visualized below.
-  ![alt text](image.png)
+  ![alt text](charter-docs/Housing-Graph.png)
 
   [Source: Credit Default Swap and Its Role in the 2008 Financial Crisis](https://finecoiitg.wordpress.com/2018/08/16/credit-default-swap-and-its-role-in-the-2008-financial-crisis/)
 
@@ -117,7 +117,7 @@
 
 ### Planned Cloud Architecture
 
-  ![alt text](Architecture1.png)
+  ![alt text](charter-docs/Architecture1.png)
 
 * **Not depicted:** A Tableau Dashboard for our insights will be connected to the Parquet File in the S3 Bucket and hosted on Temple's server.
 
