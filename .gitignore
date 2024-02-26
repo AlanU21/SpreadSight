@@ -6,7 +6,6 @@ CreditDefaultIndicies.xlsx
 __pycache__/
 *.py[cod]
 *$py.class
-CreditDefaultIndicies.xlsx
 # C extensions
 *.so
 
